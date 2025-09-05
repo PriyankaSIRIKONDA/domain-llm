@@ -1,0 +1,11 @@
+domain-llm/
+  .git/               
+  .gitignore
+  .venv/
+
+  data/
+    synthetic_v1/
+      train.jsonl
+      val.jsonl
+      test.jsonl
+!data/synthetic_v1/**
